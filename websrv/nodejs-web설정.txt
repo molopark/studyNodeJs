@@ -1,0 +1,6 @@
+node.js 설치 : nodejs.org
+node-v10.13.0-x64.msi
+
+#서버실행
+설치 : npm i nodemon --save
+실행 : npm start (package.json 참고)
