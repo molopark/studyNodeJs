@@ -1,8 +1,8 @@
 const sql = require('mssql')
 
 const config = {
-    user:'pms_user',
-    password:'$%678RTyui',
+    user:'',
+    password:'',
     server:'gsmbiz.iptime.org',
     port:1444,
     database:'master',
