@@ -3,7 +3,7 @@ const sql = require('mssql')
 const config = {
     user:'',
     password:'',
-    server:'gsmbiz.iptime.org',
+    server:'',
     port:1444,
     database:'master',
     options:{
