@@ -22,7 +22,7 @@ const poolPromise = new sql.ConnectionPool(config)
 const http = require('http')
 const server = http.createServer( async (req, res) => {
     res.statusCode = 200
-    res.setHeader('Content-type', 'text/plain')
+    res.setHeader('Content-type', 'text/plain;charset=utf-8')
     const pool = await poolPromise
     const result = await pool.query`select * from GSMPMS.dbo.TB_USER_INFO WHERE USER_ID = 'ant70m'`
     console.log(result.recordset[0])
